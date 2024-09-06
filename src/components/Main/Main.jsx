@@ -24,7 +24,7 @@ export default function Main() {
   };
 
   return (
-    <div className='flex justify-center mt-[50px] px-[4rem] h-[370px] bg-red-400'>
+    <div className='flex justify-center mt-[50px] px-[4rem] h-[370px] bg-[#edeff5]'>
       <div className='flex items-center'>
         <button className='h-[40px] px-8' onClick={handlePrevClick}>
           <img src="./flecha-izquierda.png" alt="flecha izquierda" className='h-full w-full hover:scale-125' />
