@@ -7,7 +7,7 @@
     content: '';
     /* background:rgba(0, 0, 0, 0.659)url('../../../public/blank-papers.jpg'); */
     /* background:rgba(0, 0, 0, 0.709)url('../../../public/mern1.png'); */
-    background: rgba(64, 67, 68, 0.437) url('/public/blank-papers.jpg');
+    background: rgba(64, 67, 68, 0.437) url('/public/hand-write.jpg');
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
