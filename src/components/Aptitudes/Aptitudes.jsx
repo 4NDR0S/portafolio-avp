@@ -9,10 +9,10 @@ import BasesDatos from './BasesDatos'
 export default function Aptitudes() {
     return (
         <>
-            <div className='bg-[#edeff5] h-[2rem] mt-[2rem]'></div>
+            
             <div className='background-apt'></div>
-            <div className='flex justify-center'>
-                <div className=' w-[1000px] px-[1rem] py-[1rem] mt-[2rem]'>
+            <div className='flex justify-center h-[530px] items-center'>
+                <div className=' w-[1000px] px-[1rem]'>
 
                     <Subtitle titulo='Aptitudes'
                         color='white' />
