@@ -9,7 +9,7 @@ import Education from './Education'
 export default function Main() {
   const navigate = useNavigate();
   const location = useLocation();
-  const routes = ['/me', '/experience', '/education'];
+  const routes = ['/', '/experience', '/education'];
 
   const handleNextClick = () => {
     const currentIndex = routes.indexOf(location.pathname);
@@ -31,8 +31,7 @@ export default function Main() {
 
       <div className='w-[1000px] px-[1rem] py-[.5rem]'>
         <Routes>
-          <Route path='/' element={<Navigate to='/me'/> } />
-          <Route path='/me' element={<Me />} />
+          <Route path='/' element={<Me />} />
           <Route path='/experience' element={<Exp />} />
           <Route path='/education' element={<Education />} />
         </Routes>
