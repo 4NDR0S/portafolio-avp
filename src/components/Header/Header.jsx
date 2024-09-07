@@ -8,8 +8,11 @@ export default function Header() {
       <div>
         <div className='backgroundh h-[50px]'></div>
 
-        <div className='flex justify-between px-[4rem]'>
-          <button className='uppercase text-white text-[20px] font-semibold hover:text-red-500'>inicio</button>
+        <div className='px-[4rem] flex justify-center
+        sm:flex sm:justify-between'>
+          <button className='hidden uppercase text-white text-[20px] font-semibold hover:text-red-500
+          sm:block
+          '>inicio</button>
           <Curriculum color='white'/>
         </div>
       </div>

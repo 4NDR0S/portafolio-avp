@@ -9,7 +9,7 @@ export default function Idiomas() {
 
             <div className='flex gap-[3rem] mt-[1rem]'>
 
-                <div className=''>
+                <div className='text-center'>
                     <div className='w-[60px] text-center'>
                         <img src="./spain.png" alt="C#" className='w-full p-[.4rem]' />
 
@@ -18,10 +18,9 @@ export default function Idiomas() {
                 </div>
 
 
-                <div>
-                    <div className='w-[60px] text-center'>
+                <div className='w-[90px] text-center'>
+                    <div className='w-[60px] ml-[15px]'>
                         <img src="./reino-unido.png" alt="C#" className='w-full p-[.4rem]' />
-
                     </div>
                     <p>Avanzado(C1)</p>
                 </div>

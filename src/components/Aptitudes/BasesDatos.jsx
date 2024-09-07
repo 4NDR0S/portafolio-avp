@@ -15,8 +15,8 @@ export default function BasesDatos() {
                     <p>Mongo DB</p>
                 </div>
 
-                <div>
-                    <div className='w-[60px] text-center'>
+                <div className='text-center'>
+                    <div className='w-[60px]'>
                         <img src="./servidor-sql.png" alt="C#" className='w-full p-[.4rem]' />
 
                     </div>

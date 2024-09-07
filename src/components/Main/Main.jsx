@@ -24,13 +24,16 @@ export default function Main() {
   };
 
   return (
-    <div className='flex justify-center mt-[50px] px-[4rem] h-[370px] bg-[#edeff5]'>
-      <div className='flex items-center'>
+    <div className='mt-[50px] bg-[#edeff5] min-w[350px]
+    sm:flex sm:justify-center sm:h-[370px] sm:px-[4rem]'>
+
+      <div className='flex sm:items-center justify-center'>
         <button className='h-[40px] px-8' onClick={handlePrevClick}>
           <img src="./flecha-izquierda.png" alt="flecha izquierda" className='h-full w-full hover:scale-125' />
         </button></div>
 
-      <div className='w-[1000px] px-[1rem] py-[.5rem] '>
+      <div className=' px-[1rem] py-[.5rem] 
+      lg:w-[1000px]'>
         <Routes>
           <Route path='/' element={<Me />} />
           <Route path='/experience' element={<Exp />} />
@@ -38,7 +41,7 @@ export default function Main() {
         </Routes>
       </div>
 
-      <div className='flex items-center'>
+      <div className='hidden sm:flex sm:items-center justify-center'>
       <button className='h-[40px] px-8' onClick={handleNextClick}>
         <img src="./flecha-derecha.png" alt="flecha derecha" className='h-full w-full hover:scale-125' />
       </button></div>
