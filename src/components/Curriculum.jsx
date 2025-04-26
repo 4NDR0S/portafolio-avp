@@ -3,7 +3,7 @@ import React from 'react'
 export default function Curriculum({ color, py, px }) {
   return (
     <a
-      href="./avp-cv.pdf" // Ruta correcta del archivo
+      href="./CV-AVP-2025.pdf" // Ruta correcta del archivo
       download
       target="_blank"
       rel="noopener noreferrer" // Para seguridad
