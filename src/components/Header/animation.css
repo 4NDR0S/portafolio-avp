@@ -1,0 +1,21 @@
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .typing-effect {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; /* Empieza con el texto oculto */
+    animation: typing 8s steps(88) infinite 3s; /* Velocidad de la animación 6s, pasos según el número de caracteres y 3s de retraso */
+  }
+  
+  .typing-effect span {
+    color: #bbc8dd;
+  }
+  

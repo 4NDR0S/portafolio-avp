@@ -15,18 +15,20 @@ export default function Me() {
                 </div>
             </div>
 
-            <div className='gap-8 mt-[2rem] h-[400px]
+            <div className='gap-8 mt-[2rem]
             sm:flex sm:justify-between sm:h-[200px]'>
                 <div className=' w-full mb-[1rem]
                 sm:w-[50%] sm:mb-0'>
-                    <p>Soy Anthony Vela, desarrollador web FullStack especializado en Front-end. Familiarizado con el stack MERN (MongoDB, Express, React, Node.js). Actualmente curso la carrera de Desarrollo de Software en la Universidad Brigham Young - Idaho, donde estoy ampliando mis conocimientos en tecnologías web y software de vanguardia.
-                    </p>
+                    {/* <p>Soy Anthony Vela, desarrollador web FullStack especializado en Front-end. Familiarizado con el stack MERN (MongoDB, Express, React, Node.js). Actualmente curso la carrera de Desarrollo de Software en la Universidad Brigham Young - Idaho, donde estoy ampliando mis conocimientos en tecnologías web y software de vanguardia.
+                    </p> */}
+                    <p>Soy Anthony Vela,  desarrollador web FullStack especializado en Front-end, con experiencia en el stack MERN (MongoDB, Express, React, Node.js). Actualmente estudio Desarrollo de Software en la Universidad Brigham Young - Idaho, donde continuo ampliando mis conocimientos en tecnologías web avanzadas. Mi enfoque principal es crear soluciones digitales innovadoras y de alto rendimiento, combinando el diseño limpio con una infraestructura sólida.</p>
                 </div>
 
                 <div className=' w-full
                 sm:w-[50%]'>
-                    <p>Mi experiencia se centra en la creación de aplicaciones web robustas y escalables, combinando mi pasión por la programación con un enfoque en la calidad, diseño y eficiencia. Soy un apasionado del aprendizaje continuo y busco constantemente nuevas formas de mejorar mi conocimiento y habilidades.
-                    </p>
+                    {/* <p>Mi experiencia se centra en la creación de aplicaciones web robustas y escalables, combinando mi pasión por la programación con un enfoque en la calidad, diseño y eficiencia. Soy un apasionado del aprendizaje continuo y busco constantemente nuevas formas de mejorar mi conocimiento y habilidades.
+                    </p> */}
+                    <p>Mi experiencia abarca el diseño, desarrollo e implementación de aplicaciones web robustas y eficientes, siempre enfocándome en ofrecer una experiencia de usuario excepcional. Aplicando principios de diseño UX/UI, me aseguro de que las soluciones sean funcionales, intuitivas y visualmente atractivas. Además, soy un firme defensor del aprendizaje continuo, manteniéndome actualizado sobre las últimas tendencias tecnológicas y buscando siempre mejorar mis habilidades en el desarrollo web.</p>
                 </div>
             </div>
         </>

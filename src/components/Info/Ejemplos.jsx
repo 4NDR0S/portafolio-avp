@@ -43,10 +43,16 @@ export default function Ejemplos() {
                 </div>
 
                 <div className='py-[1rem] flex items-center gap-3'>
+                    <p className='text-[#33319a]'>SneakerAPI</p>
+                    <a href="https://github.com/4NDR0S/Final-Project-SneakerStoreAPI-" className='w-[22px] mt-[4px]' target='_blank'>
+                        <img src="./sitio-web.png" alt="" className='w-full' /></a>
+                </div>
+
+                {/* <div className='py-[1rem] flex items-center gap-3'>
                     <p className='text-[#33319a]'>Pokedex</p>
                     <a href="https://practica7-pokedex.vercel.app/" className='w-[22px] mt-[4px]' target='_blank'>
                         <img src="./sitio-web.png" alt="" className='w-full' /></a>
-                </div>
+                </div> */}
 
 
             </div>
